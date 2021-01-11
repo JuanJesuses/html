@@ -57,6 +57,7 @@ body{
 
 div{
     background-color: blueviolet;
+    border-radius: 5px;
 }
 
 .inicio{
