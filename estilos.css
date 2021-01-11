@@ -1,0 +1,31 @@
+*{
+    background-color: beige;
+}
+
+p{
+    text-align: justify;
+}
+
+.ordenada{
+    background-color: antiquewhite;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.desordenada{
+    background-color: aliceblue;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: aquamarine;
+}
+
+a:focus{
+    background-color: azure;
+}
