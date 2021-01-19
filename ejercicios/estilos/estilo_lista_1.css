@@ -1,0 +1,19 @@
+.nada{
+    list-style-type: none;
+}
+
+.circle{
+    list-style-type: circle;
+}
+
+.square{
+    list-style-type: square;
+}
+
+.roman{
+    list-style-type: lower-roman;
+}
+
+.greek{
+    list-style: lower-greek;
+}
