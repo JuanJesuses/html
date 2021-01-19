@@ -1,0 +1,43 @@
+#uno {
+    color: teal;
+}
+
+#dos {
+    color: red;
+}
+
+#tres {
+    color: blue;
+}
+
+#cuatro {
+    color: orange;
+}
+
+#cinco {
+    color: purple;
+}
+
+#seis {
+    color: olive;
+}
+
+#siete {
+    color: fuchsia;
+}
+
+#ocho {
+    color: green;
+}
+
+.uno{
+    background-color: red;
+}
+
+.dos{
+    background-color: green;
+}
+
+.tres{
+    background-color: blue;
+}
