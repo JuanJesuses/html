@@ -1,0 +1,37 @@
+h1 {
+    border-bottom: 2px solid #00F;
+}
+
+h2 {
+    border: 2px solid #AAA;
+}
+
+.datos {
+    border-top: 4px dotted #F00;
+    border-bottom: 4px dotted #F00;
+}
+
+.contenido {
+    border: 2px dashed #0F0;
+}
+
+
+
+
+
+
+/* Ejercicios - Modelo caja 1
+    Enunciado
+
+    A partir de la página web que se te proporciona, debes escribir las reglas CSS necesarias para lograr una página web que tenga el mismo aspecto que la siguiente imagen:
+
+    Captura de pantalla del ejercicio
+
+    Los bordes que debes definir son:
+
+    Encabezado nivel 1: borde inferior con una anchura de 2px, sólido y de color azul (#00F).
+    Encabezado nivel 2: borde completo con una anchura de 2px, sólido y de color gris (#AAA).
+    Lista con los datos del libro: borde superior e inferior con una anchura de 4px, punteado y de color rojo (#F00).
+    Lista con el contenido del libro: borde completo con una anchura de 2px, con guiones y de color verde (#0F0).
+
+Puedes modificar el código HTML proporcionado para añadir los identificadores y clases que necesites. */
