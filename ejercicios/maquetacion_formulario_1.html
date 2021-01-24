@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title>Maquetación formulario Uno</title>
+        <link rel="stylesheet" href="estilos/maquetacion_formulario.css" >
+    </head>
+    <body>
+        
+        <!-- Cabecera -->
+        <h1>iDESWEB</h1>
+        <h3>Formulario de registro</h3>
+        
+        <!-- Inicio del formulario -->
+        <form>
+            <!-- QUIEN ERES: Aquí van los datos personales -->
+            <fieldset class="quien">
+                
+                <legend>¿QUIÉN ERES?</legend>
+                
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" />
+                
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" />
+                
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" />
+                
+                <label for="fecha">Fecha de nacimiento</label>
+                <select name="dia" class="dia">
+                    <option selected>Día</option>
+                    <option>1</option><option>2</option><option>3</option>
+                    <option>4</option><option>5</option><option>6</option>
+                    <option>7</option><option>8</option><option>9</option>
+                    <option>10</option><option>11</option><option>12</option>
+                    <option>13</option><option>14</option><option>15</option>
+                    <option>16</option><option>17</option><option>18</option>
+                    <option>19</option><option>20</option><option>21</option>
+                    <option>22</option><option>23</option><option>24</option>
+                    <option>25</option><option>26</option><option>27</option>
+                    <option>28</option><option>29</option><option>30</option>
+                    <option>31</option>
+                </select>
+                
+                <select name="mes" class="mes">
+                    <option selected>Mes</option>
+                    <option>Enero</option><option>Febrero</option><option>Marzo</option>
+                    <option>Abril</option><option>Mayo</option><option>Junio</option>
+                    <option>Julio</option><option>Agosto</option><option>Septiembre</option>
+                    <option>Octubre</option><option>Noviembre</option><option>Diciembre</option>
+                </select>
+                
+                <select name="año" class="ano">
+                    <option selected>Año</option>
+                </select>
+                
+            </fieldset>
+            
+            <!-- DE DÓNDE ERES: Lugar de procedencia -->
+            <fieldset class="donde">
+                
+                <legend>¿DE DÓNDE ERES?</legend>
+                
+                <label for="ciudad">Ciudad</label>
+                <input type="text" id="ciudad" />
+                
+                <label for="cp">Código postal</label>
+                <input type="text" id="cp" />
+                
+                <label for="pais">País</label>
+                <select name="pais" class="pais">
+                    <option selected>País</option>
+                </select>
+                
+            </fieldset>
+            
+            <!-- COMO QUIERES INICIAR SESIÓN: Aquí los campos usuario, contraseña y confirmación de la contraseña -->
+            <fieldset class="como">
+                
+                <legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+                
+                <label for="user">Nombre de usuario</label>
+                <input type="text" id="user" />
+                
+                <label for="psswd">Contraseña</label>
+                <input type="password" id="psswd" />
+                
+                <label for="pass">Vuelve a escribir la contraseña</label>
+                <input type="password" id="pass" />
+                
+            </fieldset>
+            
+            <!-- CONDICIONES DE REGISTRO: con radio button y checkbutton -->
+            <fieldset class="reg">
+                
+                <legend>CONDICIONES DE REGISTRO</legend>
+                
+                <p>Deseo recibir ofertas de iDESWB</p>
+                
+                <!--Radio buttons -->
+                <input type="radio" name="oferta" value="dia" />Una vez al día
+                <input type="radio" name="oferta" value="mes" />Una vez al mes
+                <input type="radio" name="oferta" value="ano" />Una vez al año
+                
+                <!--CheckButton -->
+                <p>
+                    <input type="checkbox" name="acepto" />Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies
+                </p>
+                
+            </fieldset>
+            
+            <p align="center">
+                <input type="button" value="Crear cuenta" class="boton"/>
+            </p>
+                
+        </form>
+        
+    </body>
+</html>
+
+
+
+<!-- En la imagen animada se muestra:
+
+    El efecto que se debe configurar cuando el cursor del ratón se sitúe encima de un control del formulario: se debe destacar con un fondo de color rojo.
+    El efecto que se debe configurar cuando un control del formulario reciba el foco del teclado: se debe destacar con un fondo de color amarillo.
+
+Además:
+
+    Contenido de la página centrado.
+    Título y subtítulo: tipo de letra Georgia, serif.
+    Tipo de letra principal: Arial, Helvetica, sans-serif.
+    Leyendas (legend) y etiquetas: negrita.
+ -->

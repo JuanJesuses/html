@@ -1,0 +1,46 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.datos,
+.contenido {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.datos {
+    width: 25%;
+}
+
+.contenido {
+    width: 75%;
+}
+
+.columnas {
+    list-style-type: none;
+    padding: 0;
+}
+
+.columnas li {
+    float: left;
+    width: 33%;
+}
+
+
+
+
+
+
+/* Las características del diseño de esta página son:
+
+    Un diseño líquido centrado con un ancho del 80%.
+    El encabezado de nivel 1 centrado.
+    El contenido principal de la página se organiza en dos columnas, una de 25% de ancho y la otra el espacio restante de 75%.
+    La lista que explica el contenido del libro se muestra como un texto a tres columnas del mismo ancho.
+*/

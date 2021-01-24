@@ -1,0 +1,56 @@
+body{
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1,
+h3 {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+legend,
+label {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: .5em 0 0 0;
+}
+
+fieldset {
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.boton {
+    font-size: 30px;
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color: red;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+
+/*  En la imagen animada se muestra:
+
+    El efecto que se debe configurar cuando el cursor del ratón se sitúe encima de un control del formulario: se debe destacar con un fondo de color rojo.
+    El efecto que se debe configurar cuando un control del formulario reciba el foco del teclado: se debe destacar con un fondo de color amarillo.
+
+    Además:
+
+    Contenido de la página centrado.
+    Título y subtítulo: tipo de letra Georgia, serif.
+    Tipo de letra principal: Arial, Helvetica, sans-serif.
+    Leyendas (legend) y etiquetas: negrita.
+ */
