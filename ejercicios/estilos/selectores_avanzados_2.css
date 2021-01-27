@@ -1,0 +1,23 @@
+.cabesa {
+    background-color: #D3D3D3;
+}
+
+.amarillo td {
+    background-color: #FFFFE0;
+}
+
+table {
+    border-collapse: separate;
+    border: 1px solid;
+}
+
+tr, td, th {
+    margin: 7px;
+    padding: 7px;
+    border: 1px solid;
+}
+
+td {
+    text-align: right;
+    
+}
